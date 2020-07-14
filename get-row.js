@@ -11,7 +11,7 @@ const pokemon = require('./pokemon.js');
 const getRow = function(str){
   for(const pokemonName of pokemon){
   
-    if(str == pokemonName[0]){
+    if(str === pokemonName[0]){
       return pokemonName
     }
     
